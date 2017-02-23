@@ -8,7 +8,8 @@
   "main": "lib/gouf",
   "bin": {},
   "scripts": {
-    "debug": "node --inspect --debug-brk examples/app",
+    "exp": "node examples/app",
+    "exp-debug": "node --inspect --debug-brk examples/app",
     "test": "mocha test"
   },
   "repository": {
@@ -25,15 +26,16 @@
   },
   "dependencies": {
     "date-fns": "^1.22.0",
-    "ejs": "^2.5.5",
     "fs-extra": "^1.0.0",
     "glob": "^7.1.1",
     "graceful-fs": "^4.1.11",
-    "html-minifier": "^3.2.3",
     "is-promise": "^2.1.0",
     "lodash": "^4.17.2",
     "path-to-regexp": "^1.7.0",
-    "swig": "^1.4.2"
+    "ramda": "^0.23.0",
+    "stylus": "^0.54.5",
+    "swig": "^1.4.2",
+    "uuid": "^3.0.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
