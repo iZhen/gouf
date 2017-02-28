@@ -6,5 +6,6 @@
 </head>
 <body>
   <h1>index</h1>
+  <div>{{env}}</div>
 </body>
 </html>

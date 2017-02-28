@@ -4,6 +4,9 @@ const Gouf = require('../lib/gouf');
 
 const app = new Gouf(__dirname);
 
+app.setLocals({
+  env: 'dev',
+});
 app.router
   .set('/', 'index')
   .set('/post/:year/:month/:day/:slug', 'post', [
